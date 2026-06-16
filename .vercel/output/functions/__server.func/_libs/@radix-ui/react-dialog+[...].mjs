@@ -3,7 +3,7 @@ import { l as require_react_dom, u as require_react } from "../@floating-ui/reac
 import { a as createSlot, c as require_jsx_runtime, n as Primitive, r as dispatchDiscreteCustomEvent, s as useComposedRefs } from "./react-arrow+[...].mjs";
 import { t as composeEventHandlers } from "../radix-ui__primitive.mjs";
 import { n as createContextScope } from "./react-collection+[...].mjs";
-import { __assign, __rest, __spreadArray } from "tslib";
+import { __assign, __rest, __spreadArray } from "../tslib.mjs";
 //#region node_modules/@radix-ui/react-use-layout-effect/dist/index.mjs
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var useLayoutEffect2 = globalThis?.document ? import_react.useLayoutEffect : () => {};
