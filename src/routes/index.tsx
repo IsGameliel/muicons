@@ -1,6 +1,6 @@
 import { createFileRoute, Link } from "@tanstack/react-router";
 import { useQuery } from "@tanstack/react-query";
-import { Crown, Heart, Trophy, Sparkles, Users, ArrowRight, CheckCircle2 } from "lucide-react";
+import { Crown, Trophy, Sparkles, Users, ArrowRight, CheckCircle2 } from "lucide-react";
 import { PublicLayout } from "@/components/PublicLayout";
 import { ContestantCard, type Contestant } from "@/components/ContestantCard";
 import { Button } from "@/components/ui/button";
@@ -117,11 +117,10 @@ function HomePage() {
 
       {/* STATS */}
       <section className="border-y border-border bg-card">
-        <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-border md:grid-cols-4">
+        <div className="mx-auto grid max-w-7xl grid-cols-2 divide-x divide-border md:grid-cols-3">
           {[
             { label: "Contestants", value: formatNumber(stats.data?.total_contestants), Icon: Users },
-            { label: "Votes Cast", value: formatNumber(stats.data?.total_votes), Icon: Heart },
-            { label: "Unique Voters", value: formatNumber(stats.data?.total_voters), Icon: Sparkles },
+            { label: "Voting", value: "Open", Icon: Sparkles },
             { label: "Crown", value: "1", Icon: Crown },
           ].map(({ label, value, Icon }) => (
             <div key={label} className="flex flex-col items-center justify-center gap-2 px-4 py-8 text-center">

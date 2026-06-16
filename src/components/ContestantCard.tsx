@@ -1,9 +1,8 @@
 import { Link } from "@tanstack/react-router";
-import { Heart, Star } from "lucide-react";
+import { Star } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { SignedImage } from "./SignedImage";
-import { formatNumber } from "@/lib/format";
 
 export type Contestant = {
   id: string;
@@ -38,10 +37,6 @@ export function ContestantCard({ c, rank }: { c: Contestant; rank?: number }) {
         <div className="absolute inset-x-0 bottom-0 p-4 text-pearl">
           <h3 className="font-display text-lg leading-tight">{c.full_name}</h3>
           {c.faculty && <p className="mt-0.5 text-xs text-pearl/70">{c.faculty}</p>}
-          <div className="mt-2 flex items-center gap-1.5 text-xs">
-            <Heart className="h-3.5 w-3.5 fill-rose text-rose" />
-            <span className="font-medium">{formatNumber(c.total_votes)} votes</span>
-          </div>
         </div>
       </div>
       <div className="flex gap-2 p-3">

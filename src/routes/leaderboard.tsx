@@ -6,7 +6,6 @@ import { PublicLayout } from "@/components/PublicLayout";
 import { SignedImage } from "@/components/SignedImage";
 import { Button } from "@/components/ui/button";
 import { supabase } from "@/integrations/supabase/client";
-import { formatNumber } from "@/lib/format";
 
 export const Route = createFileRoute("/leaderboard")({
   head: () => ({
@@ -59,7 +58,7 @@ function LeaderboardPage() {
             <Crown className="h-3.5 w-3.5" /> Live Standings
           </div>
           <h1 className="mt-4 font-display text-5xl md:text-6xl">The Leaderboard</h1>
-          <p className="mt-3 text-pearl/80">Updated every 15 seconds. Cast your vote and watch them rise.</p>
+          <p className="mt-3 text-pearl/80">Updated every 15 seconds. Cast your vote and watch the ranking change.</p>
         </div>
 
         {/* Podium */}
@@ -88,8 +87,7 @@ function LeaderboardPage() {
                       <div className="mt-2 text-xs uppercase tracking-widest text-gold">{["1st Place", "2nd Place", "3rd Place"][idx]}</div>
                       <h3 className="mt-1 font-display text-2xl text-pearl">{c.full_name}</h3>
                       <p className="text-sm text-pearl/60">#{c.contestant_number} · {c.faculty ?? "—"}</p>
-                      <div className="mt-3 font-display text-4xl text-gold-shine">{formatNumber(c.total_votes)}</div>
-                      <div className="text-xs uppercase tracking-widest text-pearl/60">votes</div>
+                      <div className="mt-3 text-xs uppercase tracking-widest text-pearl/60">Vote count hidden</div>
                     </div>
                   </div>
                 </Link>
@@ -116,9 +114,8 @@ function LeaderboardPage() {
                   <div className="truncate font-medium">{c.full_name}</div>
                   <div className="truncate text-xs text-muted-foreground">#{c.contestant_number} · {c.faculty ?? "—"}</div>
                 </div>
-                <div className="text-right">
-                  <div className="font-display text-lg">{formatNumber(c.total_votes)}</div>
-                  <div className="text-xs text-muted-foreground">votes</div>
+                <div className="text-right text-xs uppercase tracking-widest text-muted-foreground">
+                  Hidden
                 </div>
                 <Award className="h-4 w-4 text-gold opacity-0 group-hover:opacity-100" />
               </Link>

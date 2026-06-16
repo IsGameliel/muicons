@@ -98,7 +98,7 @@ function ContestantsPage() {
           <Select value={sort} onValueChange={(v) => setSort(v as "votes" | "number" | "name")}>
             <SelectTrigger className="sm:w-44"><SelectValue /></SelectTrigger>
             <SelectContent>
-              <SelectItem value="votes">Top votes</SelectItem>
+              <SelectItem value="votes">Current ranking</SelectItem>
               <SelectItem value="number">Contestant #</SelectItem>
               <SelectItem value="name">Name (A–Z)</SelectItem>
             </SelectContent>

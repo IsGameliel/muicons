@@ -6,13 +6,12 @@ import { SignedImage } from "@/components/SignedImage";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { supabase } from "@/integrations/supabase/client";
-import { formatNumber } from "@/lib/format";
 
 export const Route = createFileRoute("/contestants/$id")({
   head: () => ({
     meta: [
       { title: "Contestant — MU Icons" },
-      { name: "description", content: "Contestant profile, biography, and live vote count." },
+      { name: "description", content: "Contestant profile, biography, and voting page." },
     ],
   }),
   component: ContestantProfile,
@@ -78,13 +77,7 @@ function ContestantProfile() {
             <h1 className="mt-4 font-display text-5xl md:text-6xl">{c.full_name}</h1>
             {c.faculty && <p className="mt-2 text-lg text-muted-foreground">{c.faculty}</p>}
 
-            <div className="mt-8 grid grid-cols-2 gap-4">
-              <div className="rounded-2xl border bg-card p-5">
-                <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-gold">
-                  <Heart className="h-4 w-4" /> Total Votes
-                </div>
-                <div className="mt-2 font-display text-4xl">{formatNumber(c.total_votes)}</div>
-              </div>
+            <div className="mt-8 grid max-w-sm gap-4">
               <div className="rounded-2xl border bg-card p-5">
                 <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-gold">
                   <Trophy className="h-4 w-4" /> Current Rank
