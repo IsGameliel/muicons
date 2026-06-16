@@ -1,0 +1,1 @@
+var e=new Intl.NumberFormat(`en-NG`,{style:`currency`,currency:`NGN`,maximumFractionDigits:0}),t=t=>e.format(Number(t??0)),n=e=>new Intl.NumberFormat(`en-US`).format(Number(e??0));function r(e){return new Date(e).toLocaleDateString(`en-US`,{year:`numeric`,month:`short`,day:`numeric`,hour:`2-digit`,minute:`2-digit`})}export{t as n,n as r,r as t};
