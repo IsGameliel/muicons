@@ -1,4 +1,4 @@
-//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-B3eQ9oFL.js
+//#region node_modules/.nitro/vite/services/ssr/assets/_tanstack-start-manifest_v-C4czgIGs.js
 var tsrStartManifest = () => ({ routes: {
 	__root__: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/__root.tsx",
@@ -11,7 +11,7 @@ var tsrStartManifest = () => ({ routes: {
 			"/vote/$id"
 		],
 		preloads: [
-			"/assets/index-BCN3EWjy.js",
+			"/assets/index-NmPjApKS.js",
 			"/assets/chunk-QTnfLwEv.js",
 			"/assets/useStore-Cpe-Rk8v.js",
 			"/assets/link-BvY_471r.js",
@@ -22,20 +22,20 @@ var tsrStartManifest = () => ({ routes: {
 		scripts: [{ attrs: {
 			type: "module",
 			async: !0,
-			src: "/assets/index-BCN3EWjy.js"
+			src: "/assets/index-NmPjApKS.js"
 		} }]
 	},
 	"/": {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/routes-CUtwVaC4.js",
+			"/assets/routes-CQbPHfMV.js",
 			"/assets/utils-Yvbaf_wL.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/circle-check-B_nHycsk.js",
 			"/assets/crown-DBNpkRhU.js",
-			"/assets/PublicLayout-C4MNJnbH.js",
-			"/assets/ContestantCard-CTJglPqz.js",
+			"/assets/PublicLayout-C6aeqw__.js",
+			"/assets/ContestantCard-BQyNPHRM.js",
 			"/assets/users-CiW1Rj5-.js",
 			"/assets/button-BQWSBypK.js",
 			"/assets/format-Crgukv1p.js"
@@ -44,13 +44,13 @@ var tsrStartManifest = () => ({ routes: {
 	"/_authenticated": {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/route.tsx",
 		children: ["/_authenticated/admin"],
-		preloads: ["/assets/route-BPCo2HLw.js"]
+		preloads: ["/assets/route-B2RfhCZP.js"]
 	},
 	"/auth": {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/auth.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/auth-CsLv8gAO.js",
+			"/assets/auth-hwHsM8fL.js",
 			"/assets/utils-Yvbaf_wL.js",
 			"/assets/label-BV48T6pZ.js",
 			"/assets/dist-7sfgOzJo.js",
@@ -63,26 +63,26 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/contestants.tsx",
 		children: ["/contestants/$id"],
 		preloads: [
-			"/assets/contestants-B0F27H9E.js",
-			"/assets/select-BZzw3rlM.js",
+			"/assets/contestants-CffVDxKJ.js",
+			"/assets/select-C6OE3iOf.js",
 			"/assets/dist-7sfgOzJo.js",
-			"/assets/useQuery-BJleMJd5.js",
-			"/assets/PublicLayout-C4MNJnbH.js",
+			"/assets/useQuery-BRaQHa4C.js",
+			"/assets/PublicLayout-C6aeqw__.js",
 			"/assets/search-R1LrVUl7.js",
-			"/assets/ContestantCard-CTJglPqz.js"
+			"/assets/ContestantCard-BQyNPHRM.js"
 		]
 	},
 	"/leaderboard": {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/leaderboard.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/leaderboard-B4EMVugh.js",
+			"/assets/leaderboard-DPOkOnWO.js",
 			"/assets/utils-Yvbaf_wL.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/crown-DBNpkRhU.js",
-			"/assets/PublicLayout-C4MNJnbH.js",
+			"/assets/PublicLayout-C6aeqw__.js",
 			"/assets/trophy-DiFRiPnV.js",
-			"/assets/SignedImage-DbfW9uVC.js",
+			"/assets/SignedImage-CWQLZ56x.js",
 			"/assets/button-BQWSBypK.js"
 		]
 	},
@@ -97,24 +97,24 @@ var tsrStartManifest = () => ({ routes: {
 			"/_authenticated/admin/"
 		],
 		preloads: [
-			"/assets/admin-DhIzwhzo.js",
+			"/assets/admin-DnjNLMIW.js",
 			"/assets/utils-Yvbaf_wL.js",
 			"/assets/crown-DBNpkRhU.js",
 			"/assets/user-cog-CGoLWitc.js",
 			"/assets/users-CiW1Rj5-.js",
 			"/assets/button-BQWSBypK.js",
-			"/assets/use-auth-DhXbyxI3.js"
+			"/assets/use-auth-Co4LPvzn.js"
 		]
 	},
 	"/contestants/$id": {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/contestants.$id.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/contestants._id-D0eIb6BO.js",
+			"/assets/contestants._id-DuGmtv2i.js",
 			"/assets/arrow-left-CwJYw3zX.js",
 			"/assets/heart-AzpD3eE1.js",
 			"/assets/trophy-DiFRiPnV.js",
-			"/assets/SignedImage-DbfW9uVC.js",
+			"/assets/SignedImage-CWQLZ56x.js",
 			"/assets/badge-BNodPz_x.js",
 			"/assets/button-BQWSBypK.js"
 		]
@@ -123,17 +123,17 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/vote.$id.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/vote._id-CcxEHj4F.js",
+			"/assets/vote._id-DLrBjRTK.js",
 			"/assets/utils-Yvbaf_wL.js",
 			"/assets/label-BV48T6pZ.js",
 			"/assets/dist-7sfgOzJo.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/arrow-left-CwJYw3zX.js",
 			"/assets/circle-check-B_nHycsk.js",
-			"/assets/PublicLayout-C4MNJnbH.js",
+			"/assets/PublicLayout-C6aeqw__.js",
 			"/assets/loader-circle-B1i2aD_i.js",
 			"/assets/upload-s2vQuab3.js",
-			"/assets/SignedImage-DbfW9uVC.js",
+			"/assets/SignedImage-CWQLZ56x.js",
 			"/assets/badge-BNodPz_x.js",
 			"/assets/button-BQWSBypK.js",
 			"/assets/format-Crgukv1p.js"
@@ -143,8 +143,8 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/admin.analytics.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/admin.analytics-s-YAzC1h.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/admin.analytics-DnFbIbxG.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/clsx-CjueKrWZ.js",
 			"/assets/BarChart-ILxvyb8d.js",
 			"/assets/format-Crgukv1p.js"
@@ -154,16 +154,16 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/admin.contestants.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/admin.contestants-CkniB5W0.js",
-			"/assets/select-BZzw3rlM.js",
-			"/assets/dialog-B3fs580A.js",
+			"/assets/admin.contestants-BwBC6CXf.js",
+			"/assets/select-C6OE3iOf.js",
+			"/assets/dialog-D78M7WQz.js",
 			"/assets/label-BV48T6pZ.js",
 			"/assets/dist-7sfgOzJo.js",
 			"/assets/switch-jYrg3j--.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/loader-circle-B1i2aD_i.js",
 			"/assets/upload-s2vQuab3.js",
-			"/assets/SignedImage-DbfW9uVC.js",
+			"/assets/SignedImage-CWQLZ56x.js",
 			"/assets/badge-BNodPz_x.js",
 			"/assets/format-Crgukv1p.js"
 		]
@@ -172,11 +172,11 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/admin.settings.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/admin.settings-dAMx_5WO.js",
+			"/assets/admin.settings-iMo2Fp5o.js",
 			"/assets/label-BV48T6pZ.js",
 			"/assets/dist-7sfgOzJo.js",
 			"/assets/switch-jYrg3j--.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/loader-circle-B1i2aD_i.js"
 		]
 	},
@@ -184,15 +184,15 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/admin.transactions.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/admin.transactions-CqUec8Dp.js",
+			"/assets/admin.transactions-B9TYnzea.js",
 			"/assets/typeof-B5XbjTb1.js",
-			"/assets/dist-DwGgulAa.js",
+			"/assets/dist-BS0Klb7e.js",
 			"/assets/dist-daCA3U0B.js",
-			"/assets/dialog-B3fs580A.js",
+			"/assets/dialog-D78M7WQz.js",
 			"/assets/dist-7sfgOzJo.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/search-R1LrVUl7.js",
-			"/assets/SignedImage-DbfW9uVC.js",
+			"/assets/SignedImage-CWQLZ56x.js",
 			"/assets/badge-BNodPz_x.js",
 			"/assets/format-Crgukv1p.js"
 		]
@@ -201,10 +201,10 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/admin.users.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/admin.users-C5wgTL93.js",
-			"/assets/select-BZzw3rlM.js",
+			"/assets/admin.users-Io3YwBHp.js",
+			"/assets/select-C6OE3iOf.js",
 			"/assets/dist-7sfgOzJo.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/search-R1LrVUl7.js",
 			"/assets/badge-BNodPz_x.js",
 			"/assets/format-Crgukv1p.js"
@@ -214,8 +214,8 @@ var tsrStartManifest = () => ({ routes: {
 		filePath: "C:/Users/eruku/Desktop/regal-vote-forge-main/src/routes/_authenticated/admin.index.tsx",
 		children: void 0,
 		preloads: [
-			"/assets/admin.index-CuCeGXe4.js",
-			"/assets/useQuery-BJleMJd5.js",
+			"/assets/admin.index-DIm3Z5X9.js",
+			"/assets/useQuery-BRaQHa4C.js",
 			"/assets/BarChart-ILxvyb8d.js",
 			"/assets/circle-check-B_nHycsk.js",
 			"/assets/heart-AzpD3eE1.js",

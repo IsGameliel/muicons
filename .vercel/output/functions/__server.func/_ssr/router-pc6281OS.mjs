@@ -8,7 +8,7 @@ import { _ as useRouter, c as HeadContent, d as Outlet, f as lazyRouteComponent,
 import { t as Toaster } from "../_libs/sonner.mjs";
 import { t as Route$13 } from "./contestants._id-CEsaHYS3.mjs";
 import { t as Route$14 } from "./vote._id-BohwghRw.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/router-B91ce5wD.js
+//#region node_modules/.nitro/vite/services/ssr/assets/router-pc6281OS.js
 var import_react = /* @__PURE__ */ __toESM(require_react());
 var import_jsx_runtime = require_jsx_runtime();
 var Toaster$1 = ({ ...props }) => {
@@ -23,7 +23,7 @@ var Toaster$1 = ({ ...props }) => {
 		...props
 	});
 };
-var styles_default = "/assets/styles-D7p_c9Ri.css";
+var styles_default = "/assets/styles-z31ZTSPv.css";
 function reportLovableError(error, context = {}) {
 	if (typeof window === "undefined") return;
 	window.__lovableEvents?.captureException?.(error, {
@@ -230,7 +230,7 @@ var Route$8 = createFileRoute("/_authenticated")({
 	},
 	component: lazyRouteComponent($$splitComponentImporter$8, "component")
 });
-var $$splitComponentImporter$7 = () => import("./routes-CzA0-LLg.mjs");
+var $$splitComponentImporter$7 = () => import("./routes-XjXZCjF8.mjs");
 var Route$7 = createFileRoute("/")({
 	head: () => ({ meta: [
 		{ title: "MU Icons — University Beauty Pageant" },

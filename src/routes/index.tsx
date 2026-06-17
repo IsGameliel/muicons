@@ -194,12 +194,12 @@ function HomePage() {
 
       {/* CONTACT */}
       <section className="border-t border-border bg-card py-20">
-        <div className="mx-auto max-w-3xl px-4 text-center sm:px-6">
+        <div className="mx-auto max-w-4xl px-4 text-center sm:px-6">
           <Header label="Get in touch" title="Contact MU Icons" centered />
           <p className="mt-6 text-muted-foreground">
             Questions about voting, sponsorship, or the competition? We'd love to hear from you.
           </p>
-          <div className="mt-8 grid gap-4 sm:grid-cols-3">
+          <div className="mt-8 grid gap-4 sm:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_minmax(0,1fr)]">
             {[
               { t: "Email", v: "emmanueljaiyeola2@gmail.com" },
               { t: "Phone", v: "+2347016461677" },

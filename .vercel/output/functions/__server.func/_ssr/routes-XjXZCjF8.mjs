@@ -7,7 +7,7 @@ import { K as ArrowRight, N as Crown, R as CircleCheck, l as Sparkles, n as User
 import { r as formatNumber } from "./format-DHr__noG.mjs";
 import { t as PublicLayout } from "./PublicLayout-DHu92M1d.mjs";
 import { t as ContestantCard } from "./ContestantCard-CIO50AWC.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-CzA0-LLg.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-XjXZCjF8.js
 var import_jsx_runtime = require_jsx_runtime();
 var hero_default = "/assets/hero-ByW_sU4H.jpg";
 function useFeatured() {
@@ -229,7 +229,7 @@ function HomePage() {
 		/* @__PURE__ */ (0, import_jsx_runtime.jsx)("section", {
 			className: "border-t border-border bg-card py-20",
 			children: /* @__PURE__ */ (0, import_jsx_runtime.jsxs)("div", {
-				className: "mx-auto max-w-3xl px-4 text-center sm:px-6",
+				className: "mx-auto max-w-4xl px-4 text-center sm:px-6",
 				children: [
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)(Header, {
 						label: "Get in touch",
@@ -241,7 +241,7 @@ function HomePage() {
 						children: "Questions about voting, sponsorship, or the competition? We'd love to hear from you."
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime.jsx)("div", {
-						className: "mt-8 grid gap-4 sm:grid-cols-3",
+						className: "mt-8 grid gap-4 sm:grid-cols-[minmax(0,1.5fr)_minmax(0,1fr)_minmax(0,1fr)]",
 						children: [
 							{
 								t: "Email",
