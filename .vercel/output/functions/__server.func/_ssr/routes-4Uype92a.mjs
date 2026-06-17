@@ -7,9 +7,9 @@ import { K as ArrowRight, N as Crown, R as CircleCheck, l as Sparkles, n as User
 import { r as formatNumber } from "./format-DHr__noG.mjs";
 import { t as PublicLayout } from "./PublicLayout-DHu92M1d.mjs";
 import { t as ContestantCard } from "./ContestantCard-CIO50AWC.mjs";
-//#region node_modules/.nitro/vite/services/ssr/assets/routes-XjXZCjF8.js
+//#region node_modules/.nitro/vite/services/ssr/assets/routes-4Uype92a.js
 var import_jsx_runtime = require_jsx_runtime();
-var hero_default = "/assets/hero-ByW_sU4H.jpg";
+var hero_default = "/assets/hero-C7Bnvqfr.jpg";
 function useFeatured() {
 	return useQuery({
 		queryKey: ["featured-contestants"],
