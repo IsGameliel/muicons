@@ -105,11 +105,11 @@ function HomePage() {
                   View Contestants <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button asChild size="lg" variant="outline" className="border-pearl/30 bg-pearl/10 text-pearl hover:bg-pearl/20">
-                <Link to="/leaderboard">
+              {/* <Button asChild size="lg" variant="outline" className="border-pearl/30 bg-pearl/10 text-pearl hover:bg-pearl/20">
+                <Link to="">
                   <Trophy className="mr-2 h-4 w-4" /> Live Leaderboard
                 </Link>
-              </Button>
+              </Button> */}
             </div>
           </div>
         </div>
