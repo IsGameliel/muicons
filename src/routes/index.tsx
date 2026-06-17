@@ -201,9 +201,9 @@ function HomePage() {
           </p>
           <div className="mt-8 grid gap-4 sm:grid-cols-3">
             {[
-              { t: "Email", v: "hello@muicons.com" },
-              { t: "Phone", v: "+234 800 000 0000" },
-              { t: "Instagram", v: "@mu.icons" },
+              { t: "Email", v: "emmanueljaiyeola2@gmail.com" },
+              { t: "Phone", v: "+2347016461677" },
+              { t: "Tiktok", v: "@mui_icons" },
             ].map((x) => (
               <div key={x.t} className="rounded-xl border bg-background p-5">
                 <div className="text-xs uppercase tracking-widest text-gold">{x.t}</div>

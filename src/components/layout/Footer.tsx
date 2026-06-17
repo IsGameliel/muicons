@@ -30,9 +30,9 @@ export function Footer() {
             Contact
           </h4>
           <ul className="space-y-2 text-sm text-pearl/80">
-            <li className="flex items-center gap-2"><Mail className="h-4 w-4" />hello@muicons.com</li>
-            <li className="flex items-center gap-2"><Phone className="h-4 w-4" />+234 800 000 0000</li>
-            <li className="flex items-center gap-2"><Instagram className="h-4 w-4" />@mu.icons</li>
+            <li className="flex items-center gap-2"><Mail className="h-4 w-4" />emmanueljaiyeola2@gmail.com</li>
+            <li className="flex items-center gap-2"><Phone className="h-4 w-4" />+2347016461677</li>
+            <li className="flex items-center gap-2"><Instagram className="h-4 w-4" />@mui_icons</li>
           </ul>
         </div>
       </div>
